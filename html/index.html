@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masala Magic Palace</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/7fb2d80710.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../image/favicon.png" type="image/x-icon">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar from bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="rest-logo" src="../image/logo.png" alt="The Logo" width="35" height="35">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" id="navbar-nav">
+                <a class="nav-link active" id="nav-item1" aria-current="page" href="#">Home</a>
+                <a class="nav-link" id="nav-item2" href="#wcu-section-id">Why Choose Us?</a>
+                <a class="nav-link" id="nav-item3" href="#explore-menu-section-id">Explore Menu</a>
+                <a class="nav-link" id="nav-item4" href="#delivery-and-payment-section-id">Delivery & Payments</a>
+                <a class="nav-link" id="nav-item5" href="#follow-us-section-id">Fallow Us</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <!-- Banner section -->
+        <!-- Banner section background image container -->
+        <div class="banner-section-bg-container d-flex flex-column justify-content-center">
+            <!-- Banner section container -->
+            <div class="text-center">
+                <!-- Banner heading -->
+                <h1 class="banner-heading mb-3">
+                    Get Delicious Food Anytime
+                </h1>
+                <!-- Banner caption -->
+                <p class="banner-caption mb-4">
+                    A Culinary Journey to India 
+                </p>
+                <!-- Adding view menu button -->
+                <button class="custom-button" onclick="scrollToMenu()">
+                    View Menu
+                </button>
+                <!-- Adding order now button -->
+                <button class="custom-outline-button" onclick="scrollToPayment()">
+                    Order Now
+                </button>
+                
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <!-- Why choose us section -->
+        <div class="wcu-section pt-5 pb-5" id="wcu-section-id">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- why choose us section heading -->
+                        <h1 class="wcu-section-heading">
+                            Why Choose Us?
+                        </h1>
+                        <!-- why choose us section Description -->
+                        <p class="wcu-section-description">
+                            At <strong>Masala Magic Palace</strong>, we're more than just a place to eat; we're a destination for culinary excellence and unforgettable experiences. Our chefs craft dishes with the finest local ingredients, ensuring fresh and flavorful creations that tell a story of sustainability. Whether you're celebrating a special occasion or enjoying a casual dinner, our inviting ambiance and friendly, knowledgeable staff set the stage for memorable moments. With a commitment to customization, we cater to diverse tastes and dietary needs, making each visit special. We're deeply rooted in the community, supporting local initiatives, and striving to give back. Dining at [Restaurant Name] isn't just a meal; it's a collection of memories waiting to be made. Join us and discover the difference that makes us exceptional.
+                        </p>
+                    </div>
+                    <!-- First card -->
+                    <div class="col-12 col-md-4">
+                        <div class="wcu-card p-3 mb-3">
+                            <img src="../image/freeserviceicon.png" alt="Food Service Icon" class="wcu-card-image" loading="lazy">
+                            <h2 class="wcu-card-title mt-3">Food Service</h2>
+                            <p class="wcu-card-description">At Masala Magic Palace, experience remarkable dining. Our culinary team crafts dishes with local ingredients for sustainability. Enjoy an inviting ambiance and a dedicated staff. We cater to diverse tastes and support the community. Choose us for cherished memories</p>
+                            </div>
+                    </div>
+                    <!-- Second card -->
+                    <div class="col-12 col-md-4">
+                        <div class="wcu-card p-3 mb-3">
+                            <img src="../image/freshfoodicon.png" alt="Fresh Food Icon" class="wcu-card-image" loading="lazy">
+                            <h2 class="wcu-card-title mt-3">Fresh Food</h2>
+                            <p class="wcu-card-description"><strong>Masala Magic Palace:</strong> where freshness is paramount. We source high-quality, local ingredients for vibrant flavors. Our commitment to quality and sustainability defines every dish. From our inviting ambiance to dining at home, taste the difference. Join us for the true taste of freshness</p>
+                            </div>
+                    </div>
+                    <!-- THird card -->
+                    <div class="col-12 col-md-4">
+                        <div class="wcu-card p-3 mb-3">
+                             <img src="../image/offertagicon.png" alt="Offer tag Icon" class="wcu-card-image" loading="lazy">
+                            <h2 class="wcu-card-title mt-3">Best Offer</h2>
+                            <p class="wcu-card-description">Discover an extraordinary dining experience at <strong>Masala Magic Palace</strong>. Our best offer combines culinary excellence, ambiance, and value. Delectable chef-crafted dishes and personalized service make each visit memorable. Enjoy fine dining without breaking the bank. Savor the best with us</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Explore Menu section -->
+        <div class="explore-menu-section pt-5 pb-5" id="explore-menu-section-id">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Explore menu heading -->
+                        <h1 class="menu-section-heading pb-2">
+                            Explore Menu
+                        </h1>
+                    </div>
+                        <!-- Explore menu card -->
+                        <!-- 1.soup -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="shadow menu-item-card p-3 mb-3">
+                                <!-- Menu card image -->
+                                <img src="../image/menuimages/soup.jpeg" alt="soup imaged" loading="lazy" class="menu-item-image w-100" width="300" height="225">
+                                <!-- Menu card title -->
+                                <h2 class="menu-card-title">
+                                    Soup
+                                </h2>
+                                <!-- menu links to be updated -->
+                                <a href="soup.html#" class="menu-item-link"> View all <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                  </svg></a>
+                            </div>
+                        </div>
+                        <!-- 2.starters -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="shadow menu-item-card p-3 mb-3">
+                                <!-- Menu card image -->
+                                <img src="../image/menuimages/starters.jpg" alt="starters imaged" loading="lazy" class="menu-item-image w-100" width="300" height="225">
+                                <!-- Menu card title -->
+                                <h2 class="menu-card-title">
+                                    Starters
+                                </h2>
+                                <!-- menu links to be updated -->
+                                <a href="starters.html#" class="menu-item-link"> View all <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                  </svg></a>
+                            </div>
+                        </div>
+                        <!-- 3.Rice & briyani -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="shadow menu-item-card p-3 mb-3">
+                                <!-- Menu card image -->
+                                <img src="../image/menuimages/rice_briyani.jpg" alt="Rice & Briyani imaged" loading="lazy" class="menu-item-image w-100" width="300" height="225">
+                                <!-- Menu card title -->
+                                <h2 class="menu-card-title">
+                                    Rice & Briyani
+                                </h2>
+                                <!-- menu links to be updated -->
+                                <a href="rice_briyani.html#" class="menu-item-link"> View all <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                  </svg></a>
+                            </div>
+                        </div>
+                        <!-- 4.main course -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="shadow menu-item-card p-3 mb-3">
+                                <!-- Menu card image -->
+                                <img src="../image/menuimages/main_course_menu.jpg" alt="main course imaged" loading="lazy" class="menu-item-image w-100" width="300" height="225">
+                                <!-- Menu card title -->
+                                <h2 class="menu-card-title">
+                                    Main Course
+                                </h2>
+                                <!-- menu links to be updated -->
+                                <a href="maincourse.html#" class="menu-item-link"> View all <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                  </svg></a>
+                            </div>
+                        </div>
+                        <!-- 5.Quick bites -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="shadow menu-item-card p-3 mb-3">
+                                <!-- Menu card image -->
+                                <img src="../image/menuimages/quick_bites.jpeg" alt="Quick bites imaged" loading="lazy" class="menu-item-image w-100" width="300" height="225">
+                                <!-- Menu card title -->
+                                <h2 class="menu-card-title">
+                                    Quick Bites
+                                </h2>
+                                <!-- menu links to be updated -->
+                                <a href="quickbites.html#" class="menu-item-link"> View all <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                  </svg></a>
+                            </div>
+                        </div>
+                        <!-- 6. Desserts -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="shadow menu-item-card p-3 mb-3">
+                                <!-- Menu card image -->
+                                <img src="../image/menuimages/desserts.jpeg" alt="soup imaged" loading="lazy" class="menu-item-image w-100" width="300" height="225">
+                                <!-- Menu card title -->
+                                <h2 class="menu-card-title">
+                                    Desserts
+                                </h2>
+                                <!-- menu links to be updated -->
+                                <a href="desserts.html#" class="menu-item-link"> View all <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                  </svg></a>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- Healthy food section -->
+        <div class="healthy-food-section pt-5 pb-5" id="healthy-food-section-id">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <div class="text-center">
+                            <img src="../image/healthyfood_image.jpg" alt="Healthy food image" class="healthy-food-section-img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <h1 class="healthy-food-section-heading">Fresh, Healthy, Organic, Delicious Fruits</h1>
+                        <p class="healthy-food-section-description">Indulge in the goodness of fresh, healthy, and organic fruits at our restaurant. Our menu features a delectable array of nature's finest offerings, bursting with flavor and nutrition. From succulent berries to juicy tropical delights, our commitment to quality ensures you savor the most delicious, hand-picked fruits. Experience the delight of guilt-free dining with our wholesome, farm-to-table selection. Discover the vibrant colors and refreshing tastes of our carefully curated fruit dishes, crafted to satisfy your taste buds and nourish your body. Join us for a fruity journey that promises not only exquisite flavors but also a boost of vitality and well-being</p>
+                            <button class="custom-button">Watch Video</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Delivery and payment section -->
+        <div class="delivery-and-paymnet-section pt-5 pb-5" id="delivery-and-payment-section-id">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 order-1 order-md-2">
+                        <div class="text-center">
+                            <img class="delivery-and-payment-section-image" src="../image/offer-image.jpg" alt="offer image">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 order-2 order-md-1">
+                            <h2 class="delivery-and-paymnet-section-heading ">Delivery and Payment</h2>
+                            <p class="delivery-and-paymnet-section-description">Convenience is our priority with hassle-free delivery and payment options. Enjoy our delectable cuisine from the comfort of your home with our reliable delivery service. We offer swift and secure delivery to your doorstep, ensuring your food arrives fresh and on time.
+                                When it comes to payment, we provide various hassle-free methods. You can pay effortlessly with cash on delivery or opt for seamless online payment through credit/debit cards or mobile wallets. Our payment process is quick, secure, and designed to enhance your dining experience.
+                                Whether you're ordering in or dining with us, we make sure that your experience is smooth, from ordering to payment, so you can savor our flavors without any stress</p>
+                            <button class="custom-button">Order Now</button>
+                    <div class=" mt-3">
+                        <img
+                    src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png"
+                    class="payment-card-img" alt="visa-card-img">
+                <img
+                    src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png"
+                    class="payment-card-img" alt="master card">
+                <img
+                    src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png"
+                    class="payment-card-img" alt="paypal card">
+                <img
+                    src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png"
+                    class="payment-card-img" alt="express card">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Thanking customer section -->
+        <div class="thanking-customer-section pt-5 pb-5" id="thanking-customer-section-id">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                        <h1 class="thanking-customer-section-heading">
+                            Thanks you for being a valuable customer to us.
+                        </h1>
+                        <p class="thanking-customer-section-description">
+                            We extend our heartfelt gratitude to our valued customers. Your unwavering support and patronage are the pillars of our success. It's our pleasure to serve you and be a part of your memorable moments. We thank you for choosing us and trust that you enjoyed our offerings.
+
+                            Your feedback is invaluable to us, and we continuously strive to exceed your expectations. As a token of our appreciation, we look forward to welcoming you again and providing you with exceptional experiences. Thank you for making us a part of your journey, and we can't wait to continue serving you!
+                        </p>
+                        <div class="d-md-none">
+                            <img src="../image/gift-box.jpeg" alt="Gift box" class="thanking-customer-section-image">
+                        </div>
+                        <div>
+                            <!-- adding modals -->
+                            <!-- Button trigger modal -->
+                            <button type="button" class="custom-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Redeem Gift
+                            </button>
+  
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title thanking-customer-section-modal-title fs-5" id="exampleModalLabel">Gift Voucher</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="../image/gift-voucher.jpg" alt="gift voucher" class="gift-voucher-image w-100">
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-md-5 d-none d-md-block p-5">
+                        <img src="../image/gift-box.jpeg" alt="Gift box" class="thanking-customer-section-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fallow us section -->
+        <div class="follow-us-section pt-5 pb-5" id="follow-us-section-id">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="follow-us-section-heading">
+                            Follow Us
+                        </h1>
+                    </div>
+                    <div class="col-12 d-flex flex-row justify-content-center">
+                        <div class="icon-container">
+                            <i class="fa-brands fa-twitter icon"></i>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fa-brands fa-instagram icon"></i>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fa-brands fa-facebook icon"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <!-- Footer section -->
+        <div class="footer-section pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Restaurant Logos -->
+                        <div class="text-center">
+                            <img src="../image/logo.png" alt="The logo of restaurant" class="footer-section-logo">
+                        </div>
+                        
+                        <!-- Mail id -->
+                        <div class="text-center mt-3">
+                            <a href="mailto:npurush11@gmail.com" class="footer-section-mail-id">npurush11@gmail.com</a>
+                        </div>
+                        
+                        <!-- Address -->
+                        <div class="text-center mt-3">
+                            <address class="footer-section-address">
+                                No:93, Ambedkar nagar, 1<sup>st</sup> street,
+                                kolathur,
+                                chennai <span class="nowrap"></span>-600099.
+                            </address>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

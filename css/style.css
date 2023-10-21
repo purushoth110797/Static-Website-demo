@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400;700&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* styling our logo in the nav bar */
+.rest-logo{
+    width: 80px;
+    height: auto;
+}
+/* styling the nav bar links */
+:is(#nav-item1, #nav-item2, #nav-item3, #nav-item4){
+    color: #323f4b;
+    font-family: 'Roboto', sans-serif;
+}
+/* styling the nav bar links when we hover over it */
+:is(#nav-item1, #nav-item2, #nav-item3, #nav-item4):hover{
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px gray;
+}
+/* Align the nav links to the left hand side */
+#navbar-nav{
+    margin-left: auto;
+}
+
+/* Banner section */
+/* inserting and styling the background image */
+.banner-section-bg-container{
+    height: 85vh;
+    background-image: url('../image/bannersection.jpg');
+    background-size: cover;
+}
+
+/* Styling element inside the banner */
+.banner-heading{
+    color: aliceblue;
+    font-size: 3.0rem;
+    font-weight: 500;
+}
+/* Styling banner caption */
+.banner-caption{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* Styling view menu button in banner section */
+.custom-button{
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: transform 0.20s ease;
+}
+/* Styling order now button */
+.custom-outline-button{
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #d0b200;
+    border-radius: 8px;
+    transition: transform 0.20s ease;
+}
+/* Styling View menu button when hovering over it */
+.custom-button:is(:hover, :focus){
+    color: white;
+    background-image: linear-gradient(#d0b200, #3b3301);
+    border: 1px solid #d0b200;
+}
+
+/* Styling order now button when hovering over it */
+.custom-outline-button:is(:hover, :focus){
+    background-color: #d0b200;
+    color: white;
+}
+/* Why Choose Section */
+/* Section container */
+.wcu-section{
+    background-color: #f9fbfe;
+}
+/* WCU section heading */
+.wcu-section-heading{
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #183b56;
+}
+/* WCU section description styling */
+.wcu-section-description{
+    font-size: 1rem;
+    color: #5a7184;
+}
+/* Styling the wcu card section */
+.wcu-card{
+    background-color: white;
+    text-align: center;
+    border: 2px solid #e5eaf4;
+    border-radius: 16px;
+    transition: transform 0.20s ease;
+}
+/* styling the card when we hover it */
+.wcu-card:hover{
+    transform: scale(1.1);
+}
+/* styling the WCU card image */
+.wcu-card-image{
+    width: 90px;
+    height: auto;
+}
+/* styling the WCU card heading */
+.wcu-card-title{
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #323f4b;
+}
+/* Styling the wcu card description */
+.wcu-card-description{
+    font-size: 1rem;
+    color: #7b8794;
+}
+
+/* Eplore menu section */
+/* Explore menu section container */
+.explore-menu-section{
+    background-color: white;
+}
+/* styling Explore menu section heading */
+.menu-section-heading{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #183b56;
+}
+/* Styling menu item images */
+.menu-item-image{
+    border-radius: 16px;
+}
+/* Styling menu card title */
+.menu-card-title{
+    color: #323f4b;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-top: 24px;
+}
+/* Styling menu link */
+.menu-item-link{
+    text-decoration: none;
+    color: #d0b200;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+/* Styling menu link when hover over it */
+.menu-item-link:hover{
+    text-decoration: underline;
+    color: hsla(51, 100%, 41%, 0.514);
+}
+/* Styling menu card */
+.menu-item-card{
+    border-radius: 16px;
+    transition: transform 0.20s ease;
+}
+/* Styling menu card  when hover over it*/
+.menu-item-card:hover{
+    transform: scale(1.1);
+}
+/* Styling the healthy food section */
+.healthy-food-section {
+    background-color: #f9fbfe;
+  }
+  /* styling healthy food section image */
+  .healthy-food-section-img {
+    width: 270px;
+    border-radius: 50%;
+  }
+  /* styling healthy food section heading */
+  .healthy-food-section-heading {
+    color: #183b56;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  /* styling healthy food section description */
+  .healthy-food-section-description {
+    color: #5a7184;
+    font-size: 1rem;
+  }
+  /* Styling the delivery and payment section */
+.delivery-and-paymnet-section {
+    background-color: #f9fbfe;
+  }
+  /* styling the delivery and payment section image */
+  .delivery-and-payment-section-image{
+    width: 270px;
+  }
+   /*styling the delivery and payment section heading  */
+   .delivery-and-paymnet-section-heading{
+    color: #183b56;
+    font-size: 1.7rem;
+    font-weight: 700;
+   }
+   /* styling the delivery and payment section description */
+   .delivery-and-payment-section-description{
+    color: #5a7184;
+    font-size: 1rem;
+   }
+   /* styling the payment-card-image */
+   .payment-card-img{
+    width: 50px;
+   }
+/* styling the thanking customer section */
+/* styling the thanking customer section background */
+.thanking-customer-section{
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+/* styling the thanking customer section heading */
+.thanking-customer-section-heading{
+    color: #183b56;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+/* styling the thanking customer section description */
+.thanking-customer-section-description{
+    color: #5a7184;
+    font-size: 1rem;
+}
+/* styling the thanking customer section image */
+.thanking-customer-section-image{
+    width: 270px;
+    margin-bottom: 20px;
+}
+/* Thanking customer modal heading */
+.thanking-customer-section-modal-title{
+    color: #d0b200;
+    font-weight: 600;
+}
+
+
+/* styling the follow us section */
+/* styling follow us section heading */
+.follow-us-section-heading{
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #183b56;
+    text-align: center;
+}
+/* styling the follow us section icons */
+.icon{
+    color: #d0b200;
+    font-size: 35px;
+}
+/* styling the follow us icon container */
+.icon-container{
+    width: 80px;
+    height: 80px;
+    background-color: #faf7e8;
+    padding: 22px 16px 14px 22px;
+    margin: 15px;
+    border-radius: 50%;
+    transition: transform 0.20s ease;
+}
+/* styling the follow us icon container when we hovering over it */
+.icon-container:is(:hover, :focus){
+    background-color: #f1e7b1;
+    border: 3px solid #e9d77c;
+}
+
+
+/* Styling the footer section */
+/* styling the footer section background */
+.footer-section{
+    background-color: #0a1822;
+}
+/* styling the footer section logo */
+.footer-section-logo{
+    width: 200px;
+}
+/* styling the footer section mail id */
+.footer-section-mail-id{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #7b8794;
+    transition: transform 0.20s ease;
+}
+/* styling the footer section mail id */
+.footer-section-mail-id:is(:hover,:focus){
+    color: whitesmoke;
+}
+/* stylint the footer section address */
+.footer-section-address{
+    font-size: 1.2rem;
+    color: #7b8794;
+}
+.nowrap{
+    white-space: nowrap;
+}
