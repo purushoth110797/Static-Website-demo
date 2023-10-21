@@ -11,12 +11,12 @@ html{
     height: auto;
 }
 /* styling the nav bar links */
-:is(#nav-item1, #nav-item2, #nav-item3, #nav-item4){
+:is(#nav-item1, #nav-item2, #nav-item3, #nav-item4, #nav-item5){
     color: #323f4b;
     font-family: 'Roboto', sans-serif;
 }
 /* styling the nav bar links when we hover over it */
-:is(#nav-item1, #nav-item2, #nav-item3, #nav-item4):hover{
+:is(#nav-item1, #nav-item2, #nav-item3, #nav-item4, #nav-item5):hover{
     text-decoration: underline;
     text-shadow: 3px 3px 5px gray;
 }
